@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>RA-DCC Portal</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f4f9; display: flex; justify-content: center; padding: 50px; }
+        .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; max-width: 600px; }
+        .card { background: white; padding: 20px; border-radius: 12px; text-align: center; 
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: 0.3s; text-decoration: none; color: #333; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 8px 12px rgba(0,0,0,0.15); }
+        .icon { font-size: 40px; margin-bottom: 10px; }
+        h2 { margin: 0; font-size: 1.2rem; }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <a href="/service/" class="card">
+            <div class="icon">⚙️</div>
+            <h2>Service</h2>
+        </a>
+        <a href="/RADAR/" class="card">
+            <div class="icon">📡</div>
+            <h2>RADAR</h2>
+        </a>
+        <a href="/E-labeling/" class="card">
+            <div class="icon">🏷️</div>
+            <h2>E-labeling</h2>
+        </a>
+        <a href="/AX00/" class="card">
+            <div class="icon">🚀</div>
+            <h2>AX00</h2>
+        </a>
+    </div>
+</body>
+</html>
